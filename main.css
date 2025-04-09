@@ -1,0 +1,255 @@
+@import url("fonts.css");
+
+.nav-link, .navbar-brand {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #fbf9eb !important;
+}
+.navbar {
+    background: transparent;
+}
+.navbar-brand img {
+    height: 150px; /* Adjust as needed */
+    width: auto;
+}
+.navbar-brand svg {
+    height: 150px;
+    width: auto;
+}
+.nav-item{
+    font-family: 'Poppins';
+}
+.nav-link {
+	font-size: 21px;
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+	font-size: 21px;
+    color: #2F6C1C;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+    background: transparent !important;
+}
+.description {
+    position: relative;
+    left: 0;
+    transform: none;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 200px; 
+    max-width: 800px; 
+    padding: 0 20px; 
+}
+.description h1 {
+	font-size: 64px;
+    font-family: "Rubik";
+	color: #000000;
+}
+.description h3 {
+	color: #000000;
+	font-size: 32px;
+    font-family: "Rubik";
+	font-weight: 100;
+	margin-bottom: 50px;
+}
+.description p {
+	color: #000000;
+    font-family: "Poppins";
+    font-weight: 300;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.description button {
+    border:1px solid #F9D25B;
+    background:#F9D25B;
+    border-radius: 8px;
+    color:#000000;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+}
+.description button:hover {
+	border:1px solid #CC7245;
+    background: #CC7245;
+    color:#ffffff;
+}
+.vector-one path {
+    fill: #F09E41;
+	position: relative;  
+    top: 464px;          
+    left: 677px;  	
+}
+.vector-one {
+    position: absolute;
+    top: 464px;          
+    left: 700px;  
+    width: 200px;
+    height: 200px;
+}
+.vector-two path {
+    fill:#CC7245; 
+	position: relative;  
+    top: 236px;         
+    left: 805px;   
+}
+.vector-two {
+    position: absolute;
+    top: 236px;         
+    left: 1000px;   
+    width: 200px;
+    height: 200px;
+}
+.btn-outline-primary {
+    border:1px solid #F9D25B;
+    background:#F9D25B;
+    border-radius: 8px;
+    color:#000000;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    
+}
+.features {
+	margin: 1em auto;
+	padding: 1em;
+	position: relative;
+	margin-top: 250px;
+    right: -100px;
+}
+.features h3{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+}
+.features p{
+	margin: 1em auto;
+	position: relative;
+    font-size: 20px;
+}
+.feature-title {
+	color: #1a1717;
+    font-family: "Rubik";
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.features img {
+	-webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 16px;
+    width: 100%; 
+    height: auto; 
+}
+.features .row { 
+    margin-left: -200px;
+    margin-right: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;
+}
+.features .col-md-5, 
+.features .col-md-12 {
+    position: relative;
+    padding: 2em;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2em;
+    padding: 25px;
+    margin: 10px;
+    padding-bottom: 50px;
+}
+.feature-button{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: "Rubik", sans-serif !important;
+    font-weight: 500 !important;
+    height: 35px;
+    width: 125px;
+}
+.tools-container {
+    margin-top: -30px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-section {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 75px;
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 50px; 
+}
+
+.about-section img{
+    display: block; 
+    max-height: 550px; 
+}
+
+.tools-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 15px;
+    margin-left: 40px;  
+}
+
+h1 {
+    font-family: "Rubik";
+    font-size: 54px;
+}
+
+h3 {
+    font-family: "Poppins";
+}
+
+p {
+    margin-top: 25px;
+    max-width: 600px; 
+    font-size: 20px;
+}
+
+button{
+    border:1px solid #F9D25B;
+    background:#F9D25B;
+    border-radius: 10px;
+    color:#000000;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    width: 125px;
+    height: 35px;
+}
+
+button:hover {
+	border:1px solid #CC7245;
+    background: #CC7245;
+    color:#ffffff;
+}
+
+.ecoreps-section .btn {
+    padding: 12px 10px;           
+    font-size: 16px;
+    width: 130px;               
+    white-space: normal;          
+    line-height: 1.2;             
+    text-align: center;         
+    height: auto;                 
+}
