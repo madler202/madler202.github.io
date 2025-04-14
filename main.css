@@ -117,6 +117,13 @@ body {
     transition: transform 0.3s ease-in-out;
     transform-origin: center;
 }
+.vector-one:hover{
+    transform: scale(1.1);
+
+}
+.vector-two:hover {
+    transform: scale(1.1);
+}
 .btn-outline-primary {
     border:1px solid #F9D25B;
     background:#F9D25B;
