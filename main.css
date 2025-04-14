@@ -1,5 +1,10 @@
 @import url("fonts.css");
 
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 .nav-link, .navbar-brand {
     color: #000000;
     font-family: "Poppins", sans-serif;
@@ -92,6 +97,9 @@ body {
     left: 700px;  
     width: 200px;
     height: 200px;
+    animation: spin 2s linear;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
 }
 .vector-two path {
     fill:#CC7245; 
@@ -105,6 +113,9 @@ body {
     left: 1000px;   
     width: 200px;
     height: 200px;
+    animation: spin 2s linear;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
 }
 .btn-outline-primary {
     border:1px solid #F9D25B;
