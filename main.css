@@ -119,10 +119,14 @@ body {
 }
 .vector-one:hover{
     transform: scale(1.1);
+    z-index: 10;
+    pointer-events: auto;
 
 }
 .vector-two:hover {
     transform: scale(1.1);
+    z-index: 10;
+    pointer-events: auto;
 }
 .btn-outline-primary {
     border:1px solid #F9D25B;
