@@ -90,12 +90,12 @@ body {
     fill: #F09E41;
 	position: relative;  
     top: 464px;          
-    left: 1000px;  	
+    left: 900px;  	
 }
 .vector-one {
     position: absolute;
     top: 464px;          
-    left: 1000px;  
+    left: 900px;  
     width: 200px;
     height: 200px;
     animation: spin 2s linear;
@@ -106,12 +106,12 @@ body {
     fill:#CC7245; 
 	position: relative;  
     top: 236px;         
-    left: 805px;   
+    left: 1100px;   
 }
 .vector-two {
     position: absolute;
     top: 236px;         
-    left: 1000px;   
+    left: 1100px;   
     width: 200px;
     height: 200px;
     animation: spin 2s linear;
