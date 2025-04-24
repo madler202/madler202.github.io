@@ -86,6 +86,7 @@ body {
     color:#ffffff;
 }
 .vector-one path {
+    display: block;
     fill: #F09E41;
 	position: relative;  
     top: 464px;          
