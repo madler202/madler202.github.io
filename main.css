@@ -284,14 +284,18 @@ body {
 }
   
   .container {
-    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 40px 20px;
     background-color: #f7f7f7;
   }
   
   .column {
     flex: 1 1 200px;
     max-width: 250px;
-    margin: 200px;
+    margin: 20px;
     text-align: center;
   }
   
@@ -313,7 +317,7 @@ body {
     color: #666;
   }
 
-
+  
   
   @media (max-width: 768px) {
     .container {
