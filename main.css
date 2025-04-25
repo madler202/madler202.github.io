@@ -288,14 +288,14 @@ body {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 0;
     background-color: #f7f7f7;
   }
   
   .column {
     flex: 1 1 200px;
     max-width: 250px;
-    margin: 20px;
+    margin: 200px;
     text-align: center;
   }
   
@@ -317,7 +317,7 @@ body {
     color: #666;
   }
 
-  
+
   
   @media (max-width: 768px) {
     .container {
