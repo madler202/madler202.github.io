@@ -284,16 +284,14 @@ body {
 }
   
   .container {
-    display: flex;
-    padding: 0;
-    margin: 0;
+    padding: 2rem;
     background-color: #f7f7f7;
   }
   
   .column {
     flex: 1 1 200px;
     max-width: 250px;
-    margin: 20px;
+    margin: 200px;
     text-align: center;
   }
   
