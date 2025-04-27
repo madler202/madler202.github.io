@@ -339,7 +339,7 @@ body {
     gap: 40px;
     margin-top: 20px;
     padding-left: 0;
-    padding-right: 0;
+    padding-left: 0;
 
 }
 
@@ -362,7 +362,7 @@ body {
 
 .design-process{
     margin-left: 200px;
-    width: 100%;
+    max-width: 1500px;
 }
   @media (max-width: 768px) {
     .container {
