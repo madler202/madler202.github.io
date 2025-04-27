@@ -348,7 +348,9 @@ body {
 .project-description .column {
     flex: 1 1 200px;
 }
-
+.design-process-content p{
+    font-weight:200;
+}
 .column .heading {
     font-family: "Rubik", sans-serif;
     font-weight: 600;
