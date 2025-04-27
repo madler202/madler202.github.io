@@ -323,8 +323,8 @@ body {
   
 .project-description {
     margin-left: 200px;
+    margin-right: 200px;
     margin-top: 50px;
-    width: 100%;
 }
 
 .project-description h2 {
