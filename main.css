@@ -283,7 +283,7 @@ body {
     background-color: #ffffff;
 }
   
-  .container {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -292,33 +292,33 @@ body {
     background-color: #fbf9eb;
   }
   
-  .column {
+.column {
     flex: 1 1 200px;
     max-width: 250px;
     margin: 20px;
     text-align: center;
   }
   
-  .icon {
+.icon {
     font-size: 40px;
     margin-bottom: 10px;
     color: #4f4f4f;
   }
   
-  .heading {
+.heading {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 5px;
     color: #333;
   }
   
-  .text {
+.text {
     font-size: 15px;
     color: #666;
   }
 
    
-  .subheading {
+.subheading {
     color: #4A5858;
 }
   
@@ -356,6 +356,16 @@ body {
 .column .text {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
+}
+
+.custom-container {
+    position: relative;
+    left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 20px;
+    padding-left: 0; /* don't offset it more */
 }
   @media (max-width: 768px) {
     .container {
