@@ -357,6 +357,10 @@ body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
+
+.design-process{
+    width: 100%;
+}
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
