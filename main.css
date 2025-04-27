@@ -365,6 +365,21 @@ body {
     font-size: 20px;
     font-family: "Poppins", sans-serif;
 }
+
+.button-group {
+    display: flex;
+    gap: 10px; /* space between the two buttons */
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.button-group a {
+    text-decoration: none;
+}
+.button-group button {
+    position: static; /* REMOVE the "absolute" positioning from the button itself */
+}
   @media (max-width: 768px) {
     .container {
       flex-direction: column;
