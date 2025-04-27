@@ -363,6 +363,9 @@ body {
     font-size: 16px;
 }
 
+.protoboxes{
+    margin-left: 10px;
+}
 .protoboxes h4{
     font-size: 20px;
     font-family: "Poppins", sans-serif;
