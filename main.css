@@ -359,6 +359,8 @@ body {
 }
 
 .design-process{
+    margin-left: 200px;
+    margin-right: 0px;
     width: 100%;
 }
   @media (max-width: 768px) {
