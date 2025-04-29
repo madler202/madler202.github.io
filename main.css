@@ -391,7 +391,8 @@ body {
     border-radius: 10px;       /* rounded corners (optional) */
     background-color: #E2E2E2; /* background color (optional) */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* subtle shadow (optional) */
-    margin-top: 20px;     
+    margin-top: 20px;    
+    width: 400px; 
 }
 
 .pain-points h4{
