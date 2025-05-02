@@ -180,6 +180,13 @@ body {
     width: 100%; 
     height: auto; 
 }
+.img-fluid {
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.03);
+}
 .features .row { 
     margin-left: -200px;
     margin-right: -200px;
