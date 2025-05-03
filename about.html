@@ -15,7 +15,35 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">     
 	</head>
-    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const faders = document.querySelectorAll(".fade-in-section");
+      
+          const appearOptions = {
+            threshold: 0.1,
+            rootMargin: "0px 0px -50px 0px"
+          };
+      
+          const appearOnScroll = new IntersectionObserver(function(
+            entries,
+            appearOnScroll
+          ) {
+            entries.forEach(entry => {
+              if (!entry.isIntersecting) {
+                return;
+              } else {
+                entry.target.classList.add("is-visible");
+                appearOnScroll.unobserve(entry.target);
+              }
+            });
+          }, appearOptions);
+      
+          faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+          });
+        });
+      </script>
+      
 	<body>
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#">
@@ -41,7 +69,7 @@
         <header class="page-header header container-fluid"></header>
 
     
-        <div class="about-section ">
+        <div class="about-section fade-in-section">
             <div class="d-flex align-items-start tools-container">
                 <img src="Headshot.jpg" alt="Headshot" height="500">
                 <div class="text-content">
@@ -55,7 +83,7 @@
             </div>
         </div>
 
-        <div class="about-section">
+        <div class="about-section fade-in-section">
             <div class="d-flex align-items-start education-container">
                     <img src="Penn_State_Nittany_Lions_logo.svg (1).png" 
                          alt="Penn_State_Nittany_Lions_logo" width="300">
