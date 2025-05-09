@@ -39,25 +39,25 @@
             });
         });
 
-        window.addEventListener("scroll", () => {
-        const scrollTop = window.scrollY;
-        const docHeight = document.body.scrollHeight - window.innerHeight;
-        const scrolledPercent = scrollTop / docHeight;
-        const fullHeight = window.innerHeight;
+        // window.addEventListener("scroll", () => {
+        // const scrollTop = window.scrollY;
+        // const docHeight = document.body.scrollHeight - window.innerHeight;
+        // const scrolledPercent = scrollTop / docHeight;
+        // const fullHeight = window.innerHeight;
 
-        const lineHeight = scrolledPercent * fullHeight;
+        // const lineHeight = scrolledPercent * fullHeight;
 
-        // Update the SVG height and the path end point
-        const svg = document.getElementById("vine-svg");
-        const path = document.getElementById("vine-path");
+        // // Update the SVG height and the path end point
+        // const svg = document.getElementById("vine-svg");
+        // const path = document.getElementById("vine-path");
 
-        svg.setAttribute("height", lineHeight);
-        path.setAttribute("d", `M25,0 L25,${lineHeight}`);
-        });
+        // svg.setAttribute("height", lineHeight);
+        // path.setAttribute("d", `M25,0 L25,${lineHeight}`);
+        // });
 
-        const initialHeight = 1000;
-        document.getElementById("vine-svg").setAttribute("height", initialHeight);
-        document.getElementById("vine-path").setAttribute("d", `M25,0 L25,${initialHeight}`);
+        // const initialHeight = 1000;
+        // document.getElementById("vine-svg").setAttribute("height", initialHeight);
+        // document.getElementById("vine-path").setAttribute("d", `M25,0 L25,${initialHeight}`);
 
     </script>
     
