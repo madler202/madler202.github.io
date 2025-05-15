@@ -370,12 +370,17 @@ body {
 .design-process-content p{
     font-family: "Rubik" , sans-serif;
     font-weight: 200;   
+    font-size:18px;
 }
 
 .design-process-content ol{
     font-family: "Rubik" , sans-serif;
     font-weight: 400;  
     font-size: 20px; 
+}
+.design-process-content ul{
+    font-family: "Rubik" , sans-serif;
+    font-weight: 400;  
 }
 .column .heading {
     font-family: "Rubik", sans-serif;
