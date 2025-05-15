@@ -438,7 +438,6 @@ body {
     font-family: Arial, sans-serif;
   }
   .participant {
-    /* border: 1px solid #ccc; */
     border-radius: 8px;
     padding: 15px;
     background-color: #fffffcd3;
@@ -464,4 +463,14 @@ body {
       align-items: flex-start;
     }
   }
-  
+
+  .survey-questions{ 
+    padding: 20px;             
+    border-radius: 10px;       
+    background-color: #fffffcd3; 
+    font-size: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;    
+    width: 1050px; 
+
+  }
