@@ -155,6 +155,7 @@ body {
 	position: relative;
 	margin-top: 250px;
     right: -100px;
+    max-width: 100%;
 }
 .features h3{
     font-family: "Rubik";
