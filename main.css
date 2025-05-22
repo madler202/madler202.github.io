@@ -415,7 +415,7 @@ body {
     text-decoration: none;
 }
 .button-group button {
-    position: static; /* REMOVE the "absolute" positioning from the button itself */
+    position: static; 
 }
 .pain-points{
     padding: 20px;             
