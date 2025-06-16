@@ -488,4 +488,5 @@ body {
     margin: 0 auto;
     flex: none; /* Prevent unwanted stretching */
     max-width: none;
+    margin-top: 20px;
 }
