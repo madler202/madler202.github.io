@@ -490,3 +490,10 @@ body {
     max-width: none;
     margin-top: 20px;
 }
+
+.carousel-img {
+  max-height: 400px;  /* Adjust as needed */
+  width: auto;        /* Maintains aspect ratio */
+  margin: 0 auto;     /* Center the image if narrower than carousel width */
+  object-fit: contain; /* Ensures image scales nicely inside bounds */
+}
