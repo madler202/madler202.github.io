@@ -314,7 +314,7 @@ body {
   
 .column {
     flex: 1 1 200px;
-    max-width: 800px;
+    max-width: 32%;
     margin: 20px;
     text-align: center;
   }
