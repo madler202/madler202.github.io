@@ -318,6 +318,13 @@ body {
     margin: 20px;
     text-align: center;
   }
+
+  .reels-container{
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 20px;
+  }
   
 .icon {
     font-size: 40px;
@@ -486,7 +493,7 @@ body {
     display: flex;
     gap: 20px;
     margin: 0 auto;
-    flex: none; /* Prevent unwanted stretching */
+    flex: none;
     max-width: none;
     margin-top: 20px;
 }
@@ -499,7 +506,7 @@ body {
 }
 
 #carouselExampleIndicators {
-  max-width: 800px; /* Adjust as needed */
+  max-width: 800px; 
   margin: 0 auto;
 }
 
