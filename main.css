@@ -510,6 +510,10 @@ body {
   margin: 0 auto;
 }
 
+#carouselStickers {
+  max-width: 400px; 
+  margin: 0 auto;
+}
  .instagram-embed {
       width: 100%;
       overflow: hidden;
