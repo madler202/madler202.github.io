@@ -515,20 +515,6 @@ body {
   margin: 0 auto;
 }
 
-#carouselStickers .carousel-item img {
-  max-width: 90%;
-  max-height: 450px;
-  margin: auto;
-  object-fit: contain;
-}
-
-@media (min-width: 768px) {
-  #carouselStickers .carousel-item img {
-    max-width: 70%;
-    max-height: 600px;
-  }
-}
-
  .instagram-embed {
       width: 100%;
       overflow: hidden;
