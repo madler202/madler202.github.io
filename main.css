@@ -499,10 +499,10 @@ body {
 }
 
 .carousel-img {
-  max-height: 400px;  /* Adjust as needed */
-  width: auto;        /* Maintains aspect ratio */
-  margin: 0 auto;     /* Center the image if narrower than carousel width */
-  object-fit: contain; /* Ensures image scales nicely inside bounds */
+  max-height: 400px; 
+  width: auto;        
+  margin: 0 auto;    
+  object-fit: contain; 
 }
 
 #carouselExampleIndicators {
@@ -511,10 +511,13 @@ body {
 }
 
 #carouselStickers {
-  max-height: 400px;  /* Adjust as needed */
-  width: auto;        /* Maintains aspect ratio */
-  margin: 0 auto;     /* Center the image if narrower than carousel width */
-  object-fit: contain; /* Ensures image scales nicely inside bounds */
+  max-width: 600px; /* optional: limit width if you want */
+  margin: auto;     /* centers the carousel */
+}
+
+#carouselStickers .carousel-item img {
+  height: 400px;    /* make them taller */
+  object-fit: contain; /* keep aspect ratio without cropping */
 }
 
  .instagram-embed {
