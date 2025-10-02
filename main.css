@@ -511,13 +511,13 @@ body {
 }
 
 #carouselStickers {
-  max-width: 600px; /* optional: limit width if you want */
-  margin: auto;     /* centers the carousel */
+  max-width: 600px; 
+  margin: auto;    
 }
 
 #carouselStickers .carousel-item img {
-  height: 400px;    /* make them taller */
-  object-fit: contain; /* keep aspect ratio without cropping */
+  height: 400px;    
+  object-fit: contain; 
 }
 
  .instagram-embed {
