@@ -511,8 +511,10 @@ body {
 }
 
 #carouselStickers {
-  max-width: 100px; 
-  margin: 0 auto;
+  max-height: 400px;  /* Adjust as needed */
+  width: auto;        /* Maintains aspect ratio */
+  margin: 0 auto;     /* Center the image if narrower than carousel width */
+  object-fit: contain; /* Ensures image scales nicely inside bounds */
 }
 
  .instagram-embed {
