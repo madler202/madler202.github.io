@@ -350,20 +350,34 @@
                     <br>
                     <div class="row">
                         <div class="column">
-                            <img src="ecoreps/Stall Stories August.png" alt="August" style="width:100%;"></img>
+                            <img src="ecoreps/Stall Stories August.png" alt="August" style="width:100%;" 
+                            onclick="enlargeImg()"
+                            id="flyer1"></img>
                         </div>
                          <div class="column">
-                            <img src="ecoreps/Stall Stories September.png" alt="September" style="width:100%;"></img>
+                            <img src="ecoreps/Stall Stories September.png" alt="September" style="width:100%;" id="flyer2"></img>
                         </div>
                          <div class="column">
-                            <img src="ecoreps/Stall Stories October.png" alt="October" style="width:100%;"></img>
+                            <img src="ecoreps/Stall Stories October.png" alt="October" style="width:100%;" id="flyer3"></img>
                         </div>
                           <div class="column">
-                            <img src="ecoreps/Stall Stories November.png" alt="November" style="width:100%;"></img>
+                            <img src="ecoreps/Stall Stories November.png" alt="November" style="width:100%;"id="flyer4"></img>
                         </div>
                     </div>
 
-                
+                <script>
+                    img = document.getElementById("flyer1");
+
+                    function enlargeImg(){
+                        img.style.transform = "scale(1.5)";
+                        img.style.transition = "transform 0.25s ease"
+                    }
+
+                    function resetImg(){
+                        img.style.transform = "scale(1)";
+                        img.style.transition = "transform 0.25s ease";
+                    }
+                </script>
 
 
             <h4 class="subheading">Email Campaigns</h4>
