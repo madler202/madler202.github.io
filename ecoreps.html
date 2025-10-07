@@ -351,9 +351,7 @@
                     <div class="row">
                         <div class="column">
                             <img src="ecoreps/Stall Stories August.png" alt="August" style="width:100%;" 
-                            onclick="enlargeImg()"
-                            onclick="resetImg()"
-
+                            onclick="toggleImg()" 
                             id="flyer1"></img>
                         </div>
                          <div class="column">
@@ -368,16 +366,17 @@
                     </div>
 
                 <script>
-                    img = document.getElementById("flyer1");
+                   const img = document.getElementById("flyer1");
+                   let enlarged = false; // track state
 
-                    function enlargeImg(){
-                        img.style.transform = "scale(1.5)";
-                        img.style.transition = "transform 0.25s ease"
-                    }
-
-                    function resetImg(){
-                        img.style.transform = "scale(1)";
-                        img.style.transition = "transform 0.25s ease";
+                    function toggleImg() {
+                        if (!enlarged) {
+                            img.style.transform = "scale(1.5)";
+                            enlarged = true;
+                        } else {
+                            img.style.transform = "scale(1)";
+                            enlarged = false;
+                        }
                     }
                 </script>
 
