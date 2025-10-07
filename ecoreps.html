@@ -365,7 +365,7 @@
                         </div>
                     </div>
 
-                <script>
+                <!-- <script>
                    const img = document.getElementById("flyer1");
                    let enlarged = false; // track state
 
@@ -380,8 +380,26 @@
                             enlarged = false;
                         }
                     }
-              </script>
+              </script> -->
 
+              <script>
+            // Select all flyer images
+            const flyers = document.querySelectorAll('.column img');
+
+            flyers.forEach((flyer) => {
+                flyer.addEventListener('click', () => {
+                // If this one is already enlarged, toggle it off
+                if (flyer.classList.contains('enlarged')) {
+                    flyer.classList.remove('enlarged');
+                } else {
+                    // Remove enlarged class from any other flyer
+                    flyers.forEach((f) => f.classList.remove('enlarged'));
+                    // Enlarge this one
+                    flyer.classList.add('enlarged');
+                }
+                });
+            });
+            </script>
            
         <h3>Reflections</h3>  
          <p>EcoReps was one of my favorite organizations to be part of during my undergraduate career, hence why I stayed with them
