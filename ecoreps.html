@@ -351,7 +351,7 @@
                     <div class="row">
                         <div class="column">
                             <img src="ecoreps/Stall Stories August.png" alt="August" style="width:100%;" 
-                            onclick="toggleImg()" 
+                            onclick="this.classList.toggle('enlarged')">
                             id="flyer1"></img>
                         </div>
                          <div class="column">
@@ -365,20 +365,7 @@
                         </div>
                     </div>
 
-                <script>
-                   const img = document.getElementById("flyer1");
-                   let enlarged = false; // track state
-
-                    function toggleImg() {
-                        if (!enlarged) {
-                            img.style.transform = "scale(1.5)";
-                            enlarged = true;
-                        } else {
-                            img.style.transform = "scale(1)";
-                            enlarged = false;
-                        }
-                    }
-                </script>
+          
 
            
         <h3>Reflections</h3>  
