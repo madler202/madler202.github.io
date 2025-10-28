@@ -559,10 +559,10 @@ body {
 
 .protoboxes .column {
   display: flex;
-  /* flex-wrap: wrap;          */
-  justify-content: center; 
-  align-items: flex-start; 
-  gap: 20px;               
-  margin: 0 auto;         
-  max-width: 1200px;       
+  flex-wrap: wrap;          /* allows prototypes to move to a new line if needed */
+  justify-content: center;  /* centers the prototypes horizontally */
+  align-items: flex-start;  /* aligns them neatly at the top */
+  gap: 40px;                /* adds space between them */
+  margin: 0 auto;           /* centers the entire flex container */
+  max-width: 1200px;        /* keeps layout from stretching too wide */
 }
