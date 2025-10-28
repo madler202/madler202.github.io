@@ -530,7 +530,7 @@ body {
       border: none;
     }
 
-    /* .row {
+    .row {
   display: flex;
 }
 
@@ -542,13 +542,13 @@ body {
   .row {
     display: flex;
     gap: 10px;
-  } */
+  }
 
-  /* .column img {
+  .column img {
     width: 100%;
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-  } */
+  }
 
   .enlarged {
     transform: scale(1.5);
