@@ -547,7 +547,7 @@ body {
   justify-content: center;
   gap: 20px;
 }
-
+/* 
 .column {
   flex: 1 1 200px;
   max-width: 300px;
@@ -558,7 +558,7 @@ body {
   width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 
   .enlarged {
