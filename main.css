@@ -303,7 +303,7 @@ body {
     background-color: #ffffff;
 }
   
-.container {
+.my-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
