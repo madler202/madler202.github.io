@@ -530,25 +530,25 @@ body {
       border: none;
     }
 
-    .row {
+    /* .row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
 }
 
 .column {
-  flex: 1 1 200px;
-  max-width: 300px;
-  text-align: center;
+  flex: 33.33%;
+  padding: 5px;
 }
 
-.column img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
+  .row {
+    display: flex;
+    gap: 10px;
+  } */
 
+  /* .column img {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  } */
 
   .enlarged {
     transform: scale(1.5);
