@@ -556,3 +556,10 @@ body {
     z-index: 1000;
     position: relative;
   }
+
+  .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns of equal width */
+  gap: 20px; /* space between items */
+  justify-items: center; /* centers content in each grid cell */
+}
