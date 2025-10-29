@@ -568,7 +568,12 @@ body {
     position: relative;
   }
 
-div.hta img{
- display: flex;
+div.hta {
+  display: flex;
   justify-content: center;
+}
+
+div.hta img {
+  width: 50%;
+  height: 500px;
 }
