@@ -82,7 +82,7 @@
             Building Course Clarity required integrating a large dataset of syllabi into a structured database, designing a natural language processing (NLP) model to interpret student queries, and developing a user-friendly interface for seamless interaction. I leveraged my skills in Python to process and manage course data while ensuring accurate and context-aware responses.
             <br>
             <br>
-            This experience deepened my understanding of AI-driven solutions, database management, and user-centered design. It also reinforced my ability to translate complex technical concepts into practical tools that improve student experiences.
+            This experience deepened my understanding of AI-driven solutions, project management, and user-centered design. It also reinforced my ability to translate complex technical concepts into practical tools that improve student experiences.
             </p>
             <br>
             <br>
@@ -137,6 +137,13 @@
             <h3>Development</h3>
 
             <h4 class="subheading">Model Training</h4>
+                <p>After identifying course syllabi as a reliable source of data that can be used to train an AI model, we were able to obtain syllabi for all of Penn State's Information Science & Technology classes. We used the Python libraries Beautiful Soup and pypdf to parse the documents. From there, the cleaned data was converted into .json objects and stored for later use in training our model.
+                    <br>
+                    My main responsibility was to create the model and enable training with the properly formatted data. My first attempts involved OpenAI’s API. This allowed me to create a fine-tuned version of the gpt-3.5-turbo-0125 and provide it with the preliminary training data. 
+                    <br>
+                    At this point the model was generating responses,  but were very vague and sometimes incorrect. We specifically included in later instructions to never return information that is not explicitly found in the provided training documents. If the user were to ask for information not found in the course syllabi, the model should respond that they do not have enough information to provide a response.
+                    <br>
+                </p>
           
             <h4 class="subheading">Data Management</h4>
 
