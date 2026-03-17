@@ -32,6 +32,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
+			<li class="nav-item">
+                        <a class="nav-link" href="https://open.spotify.com/show/0U3HpRfeR8RcbmitqPtFm3?si=6262a497632d4624">Podcast</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
@@ -75,7 +78,7 @@
             <br>
             <br>
             <h3>Key Accomplishments</h3>
-            <p>As Marketing Coordinator for Penn State EcoReps, I managed a committee and established clear brand guidelines to ensure design and visual consistency across all materials. I mentored team members on best practices for effective branding and design, helping to elevate our overall communication. I led several Instagram campaigns featuring engaging visuals that increased audience interaction. Additionally, I created promotional materials such as stickers, flyers, and infographics to support our outreach efforts. I also played a key role in growing our presence on TikTok and LinkedIn, expanding our digital engagement and community reach.</p>
+            <p>As Marketing Coordinator for Penn State EcoReps, I managed a committee and established clear brand guidelines to ensure design and visual consistency across all materials. I mentored team members on best practices for effective branding and design, helping to elevate our overall communication. I led several Instagram campaigns featuring engaging visuals that increased audience interaction. Additionally, I created promotional materials such as stickers, flyers, and infographics to support our outreach efforts across campus. I also played a key role in growing our presence on TikTok and LinkedIn, expanding our digital engagement and community reach.</p>
             <br>
         <h3>Social Media</h3>
             <h4 class="subheading">Instagram</h4>
@@ -299,7 +302,7 @@
                 Everyone went above and beyond, and we were able to bounce off of each other's ideas
                 naturally. I think it goes to show how much we had bonded as designers and teammembers. </p>
                 <br>
-                <p>The following stickers were added to the EcoReps collection during my time as Marketing Coordinator. </p>
+                <p>Check out some of the stickers that were added to the EcoReps collection during my time as Marketing Coordinator. </p>
             
             <div id="carouselStickers" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -339,10 +342,79 @@
             
             
                 <h4 class="subheading">Flyers</h4>
+                    <p>Every month, EcoReps comes out with flyers known as "Stall Stories" describing our upcoming events and initiatives.
+                        These are hung in the bathroom stalls of first-year dorm bathrooms and common areas around campus.
+                        Although it may be a strange setting, Stall Stories have consistently proven to be one of our most effective marketing initiatives.
+                        As a result, it is critical that they are designed in a way that is visually engaging while also conveying important information accurately. 
+                    </p>
+                    <br>
+                    <div class="row">
+                        <div class="column">
+                            <img src="ecoreps/Stall Stories August.png" alt="August" style="width:100%;" 
+                            onclick="toggleImg()"
+                            id="flyer1"></img>
+                        </div>
+                         <div class="column">
+                            <img src="ecoreps/Stall Stories September.png" alt="September" style="width:100%;" id="flyer2"></img>
+                        </div>
+                         <div class="column">
+                            <img src="ecoreps/Stall Stories October.png" alt="October" style="width:100%;" id="flyer3"></img>
+                        </div>
+                          <div class="column">
+                            <img src="ecoreps/Stall Stories November.png" alt="November" style="width:100%;"id="flyer4"></img>
+                        </div>
+                    </div>
 
-            <h4 class="subheading">Email Campaigns</h4>
+                <!-- <script>
+                   const img = document.getElementById("flyer1");
+                   let enlarged = false; // track state
+
+                    function toggleImg() {
+                        if (!enlarged) {
+                            img.style.transform = "scale(1.5)";
+                            img.style.boxShadow = "0 10px 30px rgba(0, 0, 0, 0.3)";
+                            enlarged = true;
+                        } else {
+                            img.style.transform = "scale(1)";
+                            img.style.boxShadow = "none";
+                            enlarged = false;
+                        }
+                    }
+              </script> -->
+
+              <script>
+            // Select all flyer images
+            const flyers = document.querySelectorAll('.column img');
+
+            flyers.forEach((flyer) => {
+                flyer.addEventListener('click', () => {
+                // If this one is already enlarged, toggle it off
+                if (flyer.classList.contains('enlarged')) {
+                    flyer.classList.remove('enlarged');
+                } else {
+                    // Remove enlarged class from any other flyer
+                    flyers.forEach((f) => f.classList.remove('enlarged'));
+                    // Enlarge this one
+                    flyer.classList.add('enlarged');
+                }
+                });
+            });
+            </script>
            
         <h3>Reflections</h3>  
+         <p>EcoReps was one of my favorite organizations to be part of during my undergraduate career, hence why I stayed with them
+            for all four years. My experience as the Marketing Coordinator taught me so much about myself and my leadership style, while
+            also pushing me to strengthen my ability to make compelling designs efficiently with a high attention to detail.<br>
+                 <br>
+
+                This role required communicating with such as wide variety of people, from other committee leaders, to staff at Penn State
+                to my own committee members and more. I enjoyed the challenge of being part of all the projects in the organiation, 
+                rather than being assigned a single project/event to commit all my time to.<br>
+                <br>
+                I owe a huge thank you to every member of my committee for being so creative, cooperative, and patient with me while I 
+                navigated one of my first major leadership experiences in college. I'm also so grateful for the Senior Programming Associate 
+                (SPCs) and the rest of the leadership team for their guidance and support! I don't know what I'd do without you all!
+                <br></p>
             
         </div>
     </div>

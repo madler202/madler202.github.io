@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" type="text/css" href="fonts.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+       
+        <title>Miranda Adler Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="Miranda Adler logo transparent.svg" height="50">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">     
+	</head>
+    
+	<body>
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="Miranda Adler logo.svg" alt="Logo" height="40">
+            </a>
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-navigation">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+			<li class="nav-item">
+                        <a class="nav-link" href="https://open.spotify.com/show/0U3HpRfeR8RcbmitqPtFm3?si=6262a497632d4624">Podcast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="page-header header container-fluid"></header>
+
+     
+    <div class="project-description">
+        <a href="index.html">
+            <button class="button">Back</button>
+            </a>
+
+        <h2>CourseClarity</h2>
+        <div class="container">
+            <div class="column">
+              <div class="icon"><i class="fas fa-user"></i></div>
+              <div class="heading">Role</div>
+              <div class="text">Project Manager</div>
+            </div>
+            <div class="column">
+              <div class="icon"><i class="fas fa-calendar-alt"></i></div>
+              <div class="heading">Timeline</div>
+              <div class="text">September - November 2024</div>
+            </div>
+            <div class="column">
+              <div class="icon"><i class="fas fa-tools"></i></div>
+              <div class="heading">Tools</div>
+              <div class="text">Python, React.js, Github, Visual Studio</div>
+            </div>
+            <div class="column">
+              <div class="icon"><i class="fas fa-tasks"></i></div>
+              <div class="heading">Project Type</div>
+              <div class="text">Application Development</div>
+            </div>
+        </div>
+
+    <div class="design-process">
+        <div class="design-process-content">
+            <h3>About the Project</h3>
+            <p>During my time in the Human-Centered Design and Development capstone course, my team developed Course Clarity, an AI-powered chatbot designed to assist students by answering questions about course syllabi. This project aimed to streamline access to important course information, reducing confusion and helping students make informed academic decisions.
+            <br>
+            <br>
+            Building Course Clarity required integrating a large dataset of syllabi into a structured database, designing a natural language processing (NLP) model to interpret student queries, and developing a user-friendly interface for seamless interaction. I leveraged my skills in Python to process and manage course data while ensuring accurate and context-aware responses.
+            <br>
+            <br>
+            This experience deepened my understanding of AI-driven solutions, project management, and user-centered design. It also reinforced my ability to translate complex technical concepts into practical tools that improve student experiences.
+            </p>
+            <br>
+            <br>
+            <h3>Problem Statement</h3>
+            <h4 class="subheading">Problem</h4>
+            <p>College students struggle to find reliable, accurate information about courses and professors. Students rely on the website Rate My Professors (RMP) and other unreliable resources when planning their courses, However, Reviews on RMP often contain bias and rely on subjective criteria.
+            Existing content is anonymous and not verified, influencing important academic decisions.
+            <br>
+            <br>
+            <h4 class="subheading">Solution</h4>
+            <p>An AI chatbot application trained on course syllabi that allows students to ask questions and get accurate, up-to-date information that helps that make more informed decisions for academic planning.</p>
+            <br>
+            <iframe width="420" height="330" src="https://www.youtube.com/embed/gw61MxcQyMY?si=3Ym-ISPeh8ugsFkO&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <br>
+            <h3>Research</h3>
+            <h4 class="subheading">Competitor Analysis</h4>
+            <p>Along with my group, I identified the course selection process as one that could be improved upon. Relating to similar experiences of scrolling through endless reviews on RateMyProfessors, we wondered if there was a way to leverage this data more effectively. Further research, including a study conducted by the University of Texas title "Rate My Professors: A Study Of Bias and Inaccuracies In Anonymous Self-Reporting", revealed the problem was even bigger than we originally thought.
+            <br>
+            <br>
+            The study compared data from RateMyProfessors to ground truth, which was gathered using legitimate, in-person reviews conducted anonymously by students. Ratings were then compared for both male and female professors, as well as STEM or "quantitative" courses versus non-STEM or "qualitative" courses. The results showed a strong negative corrrelation in negative reviews and STEM courses, particularly for female professors. 
+            Additionally, the lack of vetting for accuracy is obvious from reviews clearly violating the terms of service while marked as "reviewed".</p>
+            <br>
+            <img src="courseclarity/rmp review.avif" style="margin: auto;  display: block;  width: 50%;">
+            <br>
+            <br>
+            <h4 class="subheading">User Personas</h4> 
+                <p>To narrow down our target audience, we created a persona for the typical user of our application. By identifying their
+                    motivations, goals, and frustrations, we were able to narrow down 
+                    the pain points they are currently experiencing with the existing technology. The following diagram summarizes our findings.</p>
+                <br>
+                <img src="courseclarity/persona courseclarity.avif" style="margin: auto;  display: block;  width: 50%;">
+                <p>This is just one example of a persona for Course Clarity. Although it is specific, we did this intentionally.
+                    We wanted the first version of CourseClarity to be limited to IST (Information Sciences and Technology) classes at Penn State
+                    due to the short time frame and limited  of this project. However, expanding the app to other subjects and universities would
+                    likely require further research to determine if users studying different fields at different universities have different needs and pain points.
+                </p>
+                <br>
+                <p>Together with our competitor analysis and user persona research, my team and I identified three main pain points
+                    to address in our new application.
+                </p>
+                <div class="pain-points">
+                <h4>⚠️Pain Points</h4>
+                    <ul>
+                    <li>Bias and inaccuracy as a result of unreliable data</li>
+                    <li>Information overload from too many reviews</li>
+                    <li>Difficulty extracting critical information from reviews.</li>
+                </ul>
+            </div>
+            <br>
+            <h3>Development</h3>
+
+            <h4 class="subheading">Model Training</h4>
+                <p>After identifying course syllabi as a reliable source of data that can be used to train an AI model, we were able to obtain syllabi for all of Penn State's Information Science & Technology classes. We used the Python libraries Beautiful Soup and pypdf to parse the documents. From there, the cleaned data was converted into .json objects and stored for later use in training our model.
+                    <br>
+                    <br>
+                    My main responsibility was to create the model and enable training with the properly formatted data. My first attempts involved OpenAI’s API. This allowed me to create a fine-tuned version of the gpt-3.5-turbo-0125 and provide it with the preliminary training data. 
+                    <br>
+                    <br>
+                    At this point the model was generating responses,  but were very vague and sometimes incorrect. We specifically included in later instructions to never return information that is not explicitly found in the provided training documents. If the user were to ask for information not found in the course syllabi, the model should respond that they do not have enough information to provide a response.
+                    <br>
+                    <br>
+                </p>
+          
+                
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1t-AQwJcTOo?si=w7QI4cLSRyZ8u0WI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            
+            <p>
+            
+            😥Challenge spot
+            <br>
+            <br>
+            A major challenge my group and I overcame was OpenAI's switch to a pay-per token model during the development and training of our model. As a result, we had to quickly research other LLM APIs that could support our project. 
+            <br>
+            <br>
+            Fortunately, we came across a similar functionality with Google's 1.5 Flash Gemini model, and had much greater success connecting to their API. Upon further training and script writing, we had successfully created a trained model, and were ready to implement a user interface. 
+            <br>
+            <br>
+            As mentioned earlier, a critical part of our LLM development involved improving our training scripts. In addition to the data scraped from course syllabi, we also had to provide the model with example prompts. This included both questions from the "user" role, or the student, and answers from the "assistant" role, or the chatbot, to guide the responses. We formatted these as JSONL objects to be easily interpreted by the model. For example:
+            </p>
+            <br>
+            <div class="hta">
+                <img src="courseclarity/training data courseclarity.avif">
+            </div>
+            <br>
+            <br>      
+            <h4 class="subheading">Data Management</h4>
+
+            <h4 class="subheading">Interface Design & Development</h4>
+
+            <h3>Reflections</h3>
+            
+            
+    </div>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+	</body>
+	
+</html>
