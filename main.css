@@ -303,7 +303,7 @@ body {
     background-color: #ffffff;
 }
   
-.container {
+.my-container {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -410,6 +410,17 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.protoboxes .column {
+  display: flex;
+  flex-wrap: wrap;          /* allows prototypes to move to a new line if needed */
+  justify-content: center;  /* centers the prototypes horizontally */
+  align-items: flex-start;  /* aligns them neatly at the top */
+  gap: 40px;                /* adds space between them */
+  margin: 0 auto;           /* centers the entire flex container */
+  max-width: 1200px;        /* keeps layout from stretching too wide */
+}
+
+
 .button-group {
     display: flex;
     gap: 10px; /* space between the two buttons */
@@ -499,10 +510,10 @@ body {
 }
 
 .carousel-img {
-  max-height: 400px;  /* Adjust as needed */
-  width: auto;        /* Maintains aspect ratio */
-  margin: 0 auto;     /* Center the image if narrower than carousel width */
-  object-fit: contain; /* Ensures image scales nicely inside bounds */
+  max-height: 400px; 
+  width: auto;        
+  margin: 0 auto;    
+  object-fit: contain; 
 }
 
 #carouselExampleIndicators {
@@ -511,9 +522,15 @@ body {
 }
 
 #carouselStickers {
-  max-width: 100px; 
-  margin: 0 auto;
+  max-width: 600px; 
+  margin: auto;    
 }
+
+#carouselStickers .carousel-item img {
+  height: 400px;    
+  object-fit: contain; 
+}
+
  .instagram-embed {
       width: 100%;
       overflow: hidden;
@@ -523,3 +540,40 @@ body {
       width: 100%;
       border: none;
     }
+
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+/* 
+.column {
+  flex: 1 1 200px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.column img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+
+  .enlarged {
+    transform: scale(1.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    position: relative;
+  }
+
+div.hta {
+  display: flex;
+  justify-content: center;
+}
+
+div.hta img {
+  width: 50%;
+  /* height: 500px; */
+}
