@@ -119,12 +119,12 @@ border:1px solid #F9D25B;
     display: block;
     fill: #F09E41;
 	position: relative;  
-    top: 464px;          
+    top: 430px;          
     left: 900px;  	
 }
 .vector-one {
     position: absolute;
-    top: 464px;          
+    top: 430px;          
     left: 900px;  
     width: 200px;
     height: 200px;
@@ -135,12 +135,12 @@ border:1px solid #F9D25B;
 .vector-two path {
     fill:#CC7245; 
 	position: relative;  
-    top: 236px;         
+    top: 180px;         
     left: 1100px;   
 }
 .vector-two {
     position: absolute;
-    top: 236px;         
+    top: 180px;         
     left: 1100px;   
     width: 200px;
     height: 200px;
@@ -262,6 +262,7 @@ border:1px solid #F9D25B;
     background-color: #ffffff; 
     border-radius: 10px; 
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;
     margin-bottom: 50px; 
 }
 
@@ -655,7 +656,7 @@ div.hta img {
     left: 0;
     transform: none;
     text-align: left;
-    margin-top: 25px;
+    margin-top: 75px;
     margin-left: 150px; 
     max-width: 800px;
     padding: 0 10px; 
@@ -919,3 +920,4 @@ section {
     color: white;
     font-size: 18px;
 }
+
