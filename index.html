@@ -17,7 +17,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">     
 	</head>
 
-    <script>
+    <!-- <script>
         document.addEventListener("DOMContentLoaded", function () {
             const faders = document.querySelectorAll('.fade-in-section');
     
@@ -39,31 +39,11 @@
             });
         });
 
-        // window.addEventListener("scroll", () => {
-        // const scrollTop = window.scrollY;
-        // const docHeight = document.body.scrollHeight - window.innerHeight;
-        // const scrolledPercent = scrollTop / docHeight;
-        // const fullHeight = window.innerHeight;
 
-        // const lineHeight = scrolledPercent * fullHeight;
-
-        // // Update the SVG height and the path end point
-        // const svg = document.getElementById("vine-svg");
-        // const path = document.getElementById("vine-path");
-
-        // svg.setAttribute("height", lineHeight);
-        // path.setAttribute("d", `M25,0 L25,${lineHeight}`);
-        // });
-
-        // const initialHeight = 1000;
-        // document.getElementById("vine-svg").setAttribute("height", initialHeight);
-        // document.getElementById("vine-path").setAttribute("d", `M25,0 L25,${initialHeight}`);
-
-    </script>
+    </script> -->
     
 	<body>
-              
-
+              <main>
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="#">
                 <img src="Miranda Adler logo.svg" alt="Logo" height="40">
@@ -71,28 +51,31 @@
             <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="main-navigation">
-                <ul class="navbar-nav">
+             <div class="collapse navbar-collapse" id="main-navigation">
+               <a href="Miranda_Adler_Resume.pdf" download>
+
+                <button class="resume">
+                            <i class="fa-solid fa-download"></i> Download Resume
+
+                </button>
+</a>
+                <!-- <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Work</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
                     </li>
-		<li class="nav-item">
-                        <a class="nav-link" href="https://open.spotify.com/show/0U3HpRfeR8RcbmitqPtFm3?si=6262a497632d4624">Podcast</a>
+		            <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Resume</a>
-                    </li>
-                </ul>
-            </div>
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li> 
+                </ul> -->
+            </div> 
         </nav>
         <header class="page-header header container-fluid"></header>
-
-        <svg id="vine-svg" width="100" height="1000" style="position: fixed; top: 0; right: 0; z-index: 100;">
-            <path id="vine-path" d="M25,0 L25,0" stroke="green" stroke-width="4" fill="none" />
-          </svg>
 
         <svg class="vector-one" preserveAspectRatio="none" data-bbox="27 20.292 146 159.001"  xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="27 20.292 146 159.001" data-type="shape" role="presentation" aria-hidden="true" aria-label="">
             <g>
@@ -106,94 +89,283 @@
             </g>
         </svg>
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                const vectors = document.querySelectorAll('.vector-one, .vector-two');
-                vectors.forEach((vector) => {
-                    vector.style.animation = 'none';
-                    void vector.offsetWidth; 
-                    vector.style.animation = 'spin 2s linear';
-                });
-            });
-            </script>
+
     <div class="description ">
-	    <h1>Welcome! I'm Miranda.</h1>
-	    <h3>I'm a software developer with the goal of creating technology that helps people and the planet thrive.</h3>
-        <p style="font-size:120%;">Currently creating with React. <a style="color:#2F6C1C" href="" >Check out my current project</a></p>
+            <h1>Welcome! I'm Miranda.</h1>
+            <h3>I'm a software developer with the goal of creating technology that helps people and the planet thrive.</h3>
+            <p>Wilmington, DE - Open to remote roles</p>
+            <br>
+            <div class="social-icons">
+                <a href="mailto:mirandaadler57@gmail.com"><i class="fa-solid fa-envelope fa-xl"></i></a>
+                <a href="https://www.linkedin.com/in/miranda-adler/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+                <a href="https://github.com/madler202" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a>
+
+            </div>
+          
+         </div>
+
         <br>
-        <p style="font-size:120%;">Previously creating for sustainable agriculture in Germany. <br><a style="color:#2F6C1C" href="" >See my resume</a></p>
-        <br>
-        <p style="font-size:120%;">Always inspiring people to be the best version of themselves.<br> <a style="color:#2F6C1C" href="">Give Up From Here Podcast a listen</a></p>
-        <br>
+
+        <div class="about-me" style="margin-bottom: 75px;">
+            <h2>A bit about me...</h2>
+            <p>I am a passionate software developer with experience in building web applications that make a positive impact. I enjoy creating technology that helps people and the planet thrive. My goal is to leverage technology to solve real-world problems and contribute to a sustainable future.</p>
+            </div>
+
+        <div class="skills" style="margin-bottom: 75px;">
+            <h2>My Skills</h2>
+        </div>
+
+            <div class="row">
+            <div class="column">
+            <div class="flip-card-wrapper">
+                <div class="flip-card-front">
+                    <div class="card-front-top">
+                        <i class="fa-solid fa-code fa-2xl"> </i>
+                    </div>
+                    <div class="card-front-bottom">
+                        <span class="title">Programming Languages</span>
+                    </div>
+                </div>
+                
+                <div class="flip-card-back">
+                     <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                        </ul>
+                </div>
+            </div>           
+            </div>
+
+    <div class="column">
+            <div class="flip-card-wrapper">
+                <div class="flip-card-front">
+                    <div class="card-front-top">
+                        <i class="fa-solid fa-laptop fa-2xl"> </i>
+                    </div>
+                    <div class="card-front-bottom">
+                        <span class="title">Technologies</span>
+
+                    </div>
+                </div>
+                
+                <div class="flip-card-back">
+                     <ul>
+                            <li>Git</li>
+                            <li>Github</li>
+                        </ul>
+                </div>
+            </div> 
+        </div>
+
+    <div class="column">
+    <div class="flip-card-wrapper">
+                <div class="flip-card-front">
+                    <div class="card-front-top">
+                        <i class="fa-solid fa-object-group fa-2xl"> </i>
+                    </div>
+                    <div class="card-front-bottom">
+                        <span class="title">Front-End Development</span>
+                    </div>
+                </div>
+                
+                <div class="flip-card-back">
+                        <ul>
+                            <li>Vanilla JS</li>
+                            <li>Tailwind</li>
+                            <li>React</li>
+                        </ul>
+                </div>
+            </div> 
+        </div>
+
         
-        <p style="font-size:120%; margin-bottom: 50px;">Shoot me a message via <a style="color:#2F6C1C" href="mailto:mirandaadler57@gmail.com">email</a> or <a style="color:#2F6C1C" href="https://www.linkedin.com/in/miranda-adler/">LinkedIn</a></p>
-
-        <br>
-<!-- 
-        <div class="row">
-        <div class="column">
-        <div class="flip-card-wrapper">
-             <div class="flip-card-front">
-                <div class="card-front-top">
-                    <div class="series">{ 01 }</div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"> </i>
+    <div class="column">
+    <div class="flip-card-wrapper">
+                <div class="flip-card-front">
+                    <div class="card-front-top">
+                        <i class="fa-solid fa-database fa-2xl"> </i>
+                    </div>
+                    <div class="card-front-bottom">
+                        <span class="title">Back-End Development</span>
+                    </div>
                 </div>
-                <div class="card-front-bottom">
-                    <span class="title">Easy Flip Card</span>
+                
+                <div class="flip-card-back">
+                     <ul>
+                            <li>Flask</li>
+                            <li>SQL</li>
+                            <li>MongoDB</li>
+                        </ul>
                 </div>
-            </div>
-            
-            <div class="flip-card-back">
-                <span>Lorem ipsum dolor sit amet </span>
-            </div>
-        </div>           
+            </div> 
+        </div>
+    </div>
 </div>
+        </div>
+          
+<div class="recent-projects"style="margin-bottom: 40px;margin-top: 50px;"> 
+    <h2>Recent Projects</h2>  
+    	<section>
+				<div id="like_and_subscribe">
+					<div class="hdcarousel_item" id="hdcarousel_item_1">
+                       <h3>BeBusy</h3>
+                        <img src="BeBusy Mobile App Design (1).png" class="card-img">
+                        <div class="card-desc">
+                            <h3>UX Research and Design</h3>
+                            <div class="d-flex align-items-center tools-container">
+                                <button class="btn btn-outline-primary">Figma</button>
+                                <button class="btn btn-outline-primary">Qualtrics</button>
+                                <button class="btn btn-outline-primary">SPSS</button>
+                            </div>
+                            <!-- <p>Inspired by the hit social media app BeBusy, I performed extensive user research and designed a mobile app with a similar concept, but with a productive twist. Through user research, interviews, and usability testing, I designed and refined multiple interface iterations, using participant feedback to create a polished interactive prototype.</p> -->
+<p>Inspired by BeReal, I designed a productivity-focused mobile app through user research, interviews, and usability testing. I refined the prototype using participant feedback to improve the user experience.</p>
+                            <div class="project-icons">
+                            <a href="https://www.figma.com/design/QfjPBCU7uEN7hRRl5IUvoe/BeBusy---Portfolio-Copy?node-id=5-2&p=f" class="social-button">
+                                <i class="fa-brands fa-figma fa-lg"></i>
+                            </a>
 
-<div class="column">
-        <div class="flip-card-wrapper">
-             <div class="flip-card-front">
-                <div class="card-front-top">
-                    <div class="series">{ 01 }</div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"> </i>
-                </div>
-                <div class="card-front-bottom">
-                    <span class="title">Easy Flip Card</span>
-                </div>
-            </div>
-            
-            <div class="flip-card-back">
-                <span>Lorem ipsum dolor sit amet </span>
-            </div>
-        </div> 
+                            <a href="bebusy.html" target="_blank" class="social-button">
+                                <i class="fa-solid fa-eye fa-lg"></i>
+                            </a>
+                        </div>
+                        </div>
+
+                    </div>
+					<div class="hdcarousel_item" id="hdcarousel_item_2">
+                        <h3>Haus Zwei Tannen</h3>
+                        <img src="Haus Zwei Tannen (1).png" class="card-img">
+                        <div class="card-desc">
+                            <h3>Front End Development</h3 >
+                            <div class="d-flex align-items-center tools-container">
+                            <button class="btn btn-outline-primary">WordPress</button>
+                            <button class="btn btn-outline-primary">HTML/CSS</button>
+                            <button class="btn btn-outline-primary">JavaScript</button>
+                         </div>
+                         <p>During my time volunteering in Germany, I used WordPress and HTML/CSS to create a website that introduces the organization to prospective international volunteers.
+                            I've continued working with this team to develop an interactive garden map that showcases the farm while promoting permaculture and sustainable agriculture.</p>
+                         <div class="project-icons">
+                            <a href="https://www.hauszweitannen.de/" class="social-button">
+                                <i class="fa-solid fa-desktop fa-lg"></i>
+                            </a>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="hdcarousel_item" id="hdcarousel_item_3">
+                        <h3>Course Clarity</h3>
+                        <img src="CourseClarity (4).png" class="card-img">
+                         <div class="card-desc">
+                            <h3>Backend Development</h3>
+                            <div class="d-flex align-items-center tools-container">
+                            <button class="btn btn-outline-primary">Python</button>
+                            <button class="btn btn-outline-primary">Flask</button>
+                            <button class="btn btn-outline-primary">MongoDB</button>
+                         </div>
+                         <p>CourseClarity is a custom AI chatbot that answers students' questions about courses. For our Human-Centered Design capstone, my team and I customized Google's Gemini 1.5 Flash model using its open-source API, integrated multiple database solutions with Python, and built a responsive React.js frontend styled with Tailwind CSS.
+</p>
+
+                        <div class="project-icons">
+                            <a href="https://github.com/Sobarzo14/course-clarity" target="_blank" class="social-button">
+                                <i class="fa-brands fa-github fa-lg"></i>
+                            </a>
+
+                            <!-- <a href="courseclarity.html" target="_blank" class="social-button">
+                                <i class="fa-solid fa-eye fa-lg"></i>
+                            </a> -->
+                        </div>
+                      </div>
+                    </div>
+
+					<div class="hdcarousel_item" id="hdcarousel_item_4">
+                        <h3>AstraZeneca</h3>
+                        <img src="AstraZeneca Web Design (1).png" class="card-img">
+                        <div class="card-desc">
+                            <h3>Web Development</h3>
+                             <div class="d-flex align-items-center tools-container">
+                            <button class="btn btn-outline-primary">CMS</button>
+                            <button class="btn btn-outline-primary">HTML/CSS</button>
+                            <button class="btn btn-outline-primary">JavaScript</button>
+                         </div>
+                        <p> As a Commercial IT intern at AstraZeneca, I designed and developed two governance and compliance sites using Microsoft SharePoint’s Orchestra CMS. I gathered user feedback, presented prototypes to cross-functional teams, and iterated on designs to improve functionality and user experience.</p>
+                                            
+                        <div class="project-icons">
+                            <a href="https://www.figma.com/design/XbSTrpYa3bpgeZBbAho6Rf/ACERT-Nucleus-Site-Prototype--Copy-?node-id=0-1" class="social-button">
+                                <i class="fa-brands fa-figma fa-lg"></i>
+                            </a>
+
+                            <a href="astrazeneca.html" target="_blank" class="social-button">
+                                <i class="fa-solid fa-eye fa-lg"></i>
+                            </a>
+                        </div>
+                   
+
+                    </div>
+                    </div>
+					
+				</div>
+			</section>
+
     </div>
 
-<div class="column">
- <div class="flip-card-wrapper">
-             <div class="flip-card-front">
-                <div class="card-front-top">
-                    <div class="series">{ 01 }</div>
-                    <i class="fa-solid fa-arrow-up-right-from-square"> </i>
-                </div>
-                <div class="card-front-bottom">
-                    <span class="title">Easy Flip Card</span>
-                </div>
-            </div>
-            
-            <div class="flip-card-back">
-                <span>Lorem ipsum dolor sit amet </span>
-            </div>
-        </div> 
-</div>
-</div> -->
+            <!-- <section>
+				<div class = "hdcarousel_wrapper" >
+                    <div id="like_and_subscribe" class="hdcarousel">
+                        <div class="hdcarousel_item">1</div>
+                        <div class="hdcarousel_item">2</div>
+                        <div class="hdcarousel_item">3</div>
+                        <div class="hdcarousel_item">4</div>
+                        <div class="hdcarousel_item">5</div>
+                    </div>
+                    <div class="hdcarousel_nav">
+                        <div class="hdcarousel_nav_item" data-dir="prev">Prev</div>
+                        <div class="hdcarousel_nav_item" data-dir="next">Next</div>
+                    </div>
+				</div>
+			</section> -->
 
 
-<section id="portfolio">
-        <!-- <h2>My Projects</h2> -->
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>Thanks for stopping by!</h2>
+                <p>I'm always open to new opportunities, collaborations, and conversations.</p>
+
+                <p class="copyright">
+                    &copy; 2024 Miranda Adler. All rights reserved.
+                </p>
+            </div>
+
+            <div class="footer-right">
+                <h3>Let's Connect</h3>
+
+                <p>Email: <a href="mailto:mirandaadler57@gmail.com">mirandaadler57@gmail.com</a></p>
+
+                <p><a href="https://www.linkedin.com/in/miranda-adler/">LinkedIn</a></p>
+
+                <p><a href="https://github.com/madler202">GitHub</a></p>
+   <a href="Miranda_Adler_Resume.pdf" download><p>Resume</p></a>
+
+            </div>
+
+    </div>
+</footer>
+
+
+ <!-- <section id="portfolio">
+         <h2>My Projects</h2> -
 
         <div id="projects-container"></div>
         </section>
 
-        <!-- <div class="container features">
+         <div class="container features">
             <div class="row">
                 <div class="col-md-5 col-sm-12 fade-in-section">
                     <h2 class="feature-title">AstraZeneca</h2>
@@ -342,13 +514,11 @@
                     </div> 
                     </div>
                 </div>
-            </div> -->
-    </div>
+            </div>  -->
 
    
-    </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-	</body>
+        </main>
+
     	<script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/81fc3d2e73.js" crossorigin="anonymous"></script>
 </html>
